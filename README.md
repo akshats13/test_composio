@@ -5,7 +5,7 @@ cd [repository-directory]
 
 # Set up a virtual environment 
 
-python -m venv venv
+python -m venv venv  
 venv\Scripts\activate
 
 # Instatll dependencies
@@ -18,12 +18,12 @@ python -m unittest test_tools.py
 
 # To use the tool , utilzie this code sample 
 
-from custom_tools import PdfReaderTool
+from custom_tools import PdfReaderTool  
 
-tool = PdfReaderTool()
-text = tool.read_pdf('path to your pdf file')
-metadata = tool.extract_metadata('path to your pdf file')
+tool = PdfReaderTool()  
+text = tool.read_pdf('path to your pdf file')  
+metadata = tool.extract_metadata('path to your pdf file')  
 
-print("Text Content:", text)
+print("Text Content:", text)  
 print("Metadata:", metadata)
 
