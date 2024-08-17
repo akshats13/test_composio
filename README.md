@@ -1,6 +1,6 @@
 ﻿# Clone the repository 
 
-git clone <repository-url>
+git clone <repository-url>  
 cd <repository-directory>
 
 # Set up a virtual environment 
